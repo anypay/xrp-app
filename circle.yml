@@ -5,7 +5,7 @@ dependencies:
         - npm install -g cordova ios-sim ios-deploy yarn plugman
 
     override:
-        - yarn install
+        - npm install
 
     post:
         - cordova platform add ios
