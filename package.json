@@ -78,7 +78,7 @@
     "superagent": "^1.2.0",
     "uglify-js": "^2.4.23",
     "uglifyify": "^3.0.1",
-    "xrp-app-lib": "git+ssh://git@github.com/adamcmiel/xrp-app-lib#702be7f"
+    "xrp-app-lib": "git+ssh://git@github.com/adamcmiel/xrp-app-lib#v2"
   },
-  "repository": "git@bitbucket.com:adamcmiel/xrp"
+  "repository": "git@github.com:anypay/xrp-app"
 }
