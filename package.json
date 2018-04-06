@@ -71,6 +71,8 @@
     "mocha": "^2.2.5",
     "prova": "^2.1.2",
     "provify": "^0.1.3",
+    "ripple-keypairs": "^0.10.1",
+    "ripple-lib": "^0.19.1",
     "should": "^7.0.1",
     "sinon": "^1.15.3",
     "sinon-chai": "^2.8.0",
@@ -78,8 +80,7 @@
     "superagent": "^1.2.0",
     "uglify-js": "^2.4.23",
     "uglifyify": "^3.0.1",
-    "xrp-app-lib": "git+ssh://git@github.com/adamcmiel/xrp-app-lib#v2",
-    "ripple-lib": "^0.19.1"
+    "xrp-account-listener-browserify": "^1.1.0"
   },
   "repository": "git@github.com:anypay/xrp-app"
 }

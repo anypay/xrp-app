@@ -1,4 +1,4 @@
-import XRP from 'xrp-app-lib'
+import XRP from '../xrp-app-lib'
 import EventEmitter from 'famous/core/EventEmitter'
 import {getBalance} from './ripple'
 

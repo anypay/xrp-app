@@ -1,4 +1,4 @@
-XRP = require "xrp-app-lib"
+XRP = require "../xrp-app-lib"
 Timer = require "famous/utilities/Timer"
 {errorConstructor} = require "./helpers"
 jquery = require 'jquery'

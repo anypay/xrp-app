@@ -1,6 +1,6 @@
 import Engine from 'famous/core/Engine'
 import EventEmitter from 'famous/core/EventEmitter'
-import {decodeURI} from 'xrp-app-lib'
+import {decodeURI} from '../xrp-app-lib'
 
 /**
  * @module controllers
