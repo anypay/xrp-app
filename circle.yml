@@ -1,0 +1,14 @@
+
+## Customize dependencies
+dependencies:
+    pre:
+        - npm install -g cordova ios-sim ios-deploy yarn plugman bower
+
+    override:
+        - npm install
+
+    post:
+        - cordova platform add ios
+        - cordova plugin add https://github.com/apache/cordova-plugin-contacts
+        - cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
+

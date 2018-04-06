@@ -5,7 +5,7 @@ npm install -g cordova
 cordova create Build com.adamcmiel.app.xrp XRP
 cd Build \
     && cordova platform add ios \
-    && cordova plugin add org.apache.cordova.contacts \
+    && cordova plugin add https://github.com/apache/cordova-plugin-contacts \
     && cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
 ```
 
