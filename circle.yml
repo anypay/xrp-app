@@ -1,0 +1,11 @@
+
+## Customize dependencies
+dependencies:
+    pre:
+        - npm install -g cordova ios-sim ios-deploy
+
+    post:
+        - cordova platform add ios
+        - cordova plugin add https://github.com/apache/cordova-plugin-contacts
+        - cordova plugin add https://github.com/wildabeast/BarcodeScanner.git
+
