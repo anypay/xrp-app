@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "start": "npm run build && npm run cordova",
-    "install": "bower install && sh install-plugins.sh",
+    "install": "bower install",
     "test": "mocha --compilers coffee:coffee-script/register test/**/*",
     "copy-assets": "cp -R vendor static",
     "build": "npm run copy-assets && browserify --extension='.coffee' src/index.js > static/bundle.js",
@@ -78,7 +78,8 @@
     "superagent": "^1.2.0",
     "uglify-js": "^2.4.23",
     "uglifyify": "^3.0.1",
-    "xrp-app-lib": "git+ssh://git@github.com/adamcmiel/xrp-app-lib#v2"
+    "xrp-app-lib": "git+ssh://git@github.com/adamcmiel/xrp-app-lib#v2",
+    "ripple-lib": "^0.19.1"
   },
   "repository": "git@github.com:anypay/xrp-app"
 }

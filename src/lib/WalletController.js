@@ -1,5 +1,6 @@
 import XRP from 'xrp-app-lib'
 import EventEmitter from 'famous/core/EventEmitter'
+import {getBalance} from './ripple'
 
 export default class WalletController extends EventEmitter {
   constructor() {
@@ -28,7 +29,8 @@ export default class WalletController extends EventEmitter {
   }
 
   async updateBalance() {
-    await this._wallet.updateBalance()
+    let balance = await getBalance(this._wallet.publicKey)
+    this._wallet._balance = balance;
     this.emit('balance:updated', this._wallet.balance)
   }
 }
