@@ -2,7 +2,10 @@
 ## Customize dependencies
 dependencies:
     pre:
-        - npm install -g cordova ios-sim ios-deploy
+        - npm install -g cordova ios-sim ios-deploy yarnpkg
+
+    override:
+        - yarn install
 
     post:
         - cordova platform add ios
